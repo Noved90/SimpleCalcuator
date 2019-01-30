@@ -24,7 +24,7 @@ namespace SimpleCalcuator
             float.TryParse(Console.ReadLine(), out UserNumInput);
             Console.WriteLine("Enter Second Num");
             float.TryParse(Console.ReadLine(), out UserNumInputTwo);
-            Console.WriteLine("Enter Charactor: +,-,/,*,1 : ");
+            Console.WriteLine("Enter Charactor: +,-,/,*, : ");
             UserOperand = Console.ReadLine();
             if (UserOperand == modCharactor)
             {
